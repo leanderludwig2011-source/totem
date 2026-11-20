@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "totem_pop_hotbar_swap",
+  "version": "${version}",
+  "name": "Totem Pop Hotbar Swap",
+  "description": "Selects the next totem in your hotbar after your own totem pops. Does not move items to offhand.",
+  "environment": "client",
+  "mixins": ["totem_pop_hotbar_swap.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
